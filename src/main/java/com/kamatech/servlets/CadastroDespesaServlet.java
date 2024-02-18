@@ -17,10 +17,12 @@ public class CadastroDespesaServlet extends HttpServlet {
     String data = request.getParameter("data");
     String valor = request.getParameter("valor");
     String categoria = request.getParameter("categoria");
+    String memo = request.getParameter("memo");
 
     System.out.println(descricao);
     System.out.println(data);
     System.out.println(valor);
     System.out.println(categoria);
+    System.out.println(memo);
   }
 }
